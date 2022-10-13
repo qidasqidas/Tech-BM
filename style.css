@@ -1,0 +1,53 @@
+body{
+   background-image: url('bg.jpg');
+   background-size:100%;
+}
+.bg{
+    background-image: url('bg.jpg');
+    background-size:100%;
+}
+*{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.div{
+    width:50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+align-items: center;
+border-radius: 20px;
+border: 2px solid white;
+background-color: white;
+}
+.di2{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+align-items: center;
+
+}
+#f{
+    color: black;
+}
+#p{
+    color: black;
+}
+#a{
+    color: black;
+}
+.pointer:hover{ 
+    cursor: pointer; 
+}
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    color: black;
+  }
+  
+
+  tr:nth-child() {
+    background-color: #dddddd;
+  }

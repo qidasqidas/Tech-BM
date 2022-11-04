@@ -2,6 +2,9 @@ body{
    background-image: url('bg.jpg');
    background-size:100%;
 }
+#name{
+text-transformm:capitalize;
+}
 .bg{
     background-image: url('bg.jpg');
     background-size:100%;
